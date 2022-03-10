@@ -1,0 +1,52 @@
+/* 
+====== 
+Variables 
+======
+*/
+:root {
+  --primaryColor: #192024;
+  --primaryLightColor: #5a6872;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainBackground: #f9fafb;
+  --mainTransition: all 0.3s linear;
+  --shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04),
+    0 3px 6px 0 rgba(25, 32, 26, 0.16);
+}
+/* 
+====== 
+Global Styles 
+======
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: Helvetica;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+.section-center {
+  width: 65vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+@media screen and (min-width: 776px) {
+  .section-center {
+    width: 75vw;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 80vw;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .section-center {
+    width: 85vw;
+  }
+}
