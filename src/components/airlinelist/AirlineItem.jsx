@@ -1,7 +1,7 @@
 import React from "react";
 import { KAYAK_URL } from "../../constants/constants";
-const AirlineItem = ({ airlineitem }) => {
-  const { logoURL, name, alliance, phone, site } = airlineitem;
+const AirlineItem = ({ airlineItem }) => {
+  const { logoURL, name, alliance, phone, site } = airlineItem;
 
   return (
     <article className="airline-container">

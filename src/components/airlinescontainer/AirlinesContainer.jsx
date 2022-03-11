@@ -2,7 +2,7 @@ import React from "react";
 import "./airlines-container.css";
 import Loading from "../loading/Loading";
 import AirlinesList from "../airlinelist/AirlineList";
-import AirlinesFilter from "../airlinesfilter/AirlinesFilter";
+// import AirlinesFilter from "../airlinesfilter/AirlinesFilter";
 import { useGlobalContext } from "../../context/context";
 
 const AirlinesContainer = () => {
@@ -11,7 +11,7 @@ const AirlinesContainer = () => {
   return (
     <main className="main-container">
       <h1 className="section-center main-title">Airlines</h1>
-      <AirlinesFilter />
+      {/* <AirlinesFilter /> */}
       {isLoading ? <Loading /> : <AirlinesList />}
     </main>
   );

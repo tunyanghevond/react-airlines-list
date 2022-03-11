@@ -19,7 +19,7 @@ const AirlinesList = () => {
       <div className="section-center airline-center ">
         {airlinesData.filteredData.map((airlineitem) => {
           return (
-            <AirlineItem key={airlineitem.code} airlineitem={airlineitem} />
+            <AirlineItem key={airlineitem.code} airlineItem={airlineitem} />
           );
         })}
       </div>
